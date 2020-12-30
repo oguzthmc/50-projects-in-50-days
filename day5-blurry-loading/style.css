@@ -22,7 +22,7 @@ body {
   width: calc(100vw + 60px);
   height: calc(100vh + 60px);
   z-index: -1;
-  filter: blur(0px);
+  filter: blur(100px);
 }
 
 .loading-text {
