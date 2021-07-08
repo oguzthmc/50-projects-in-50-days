@@ -10,7 +10,7 @@
 }
 
 body {
-  background-color: va(--primary-color);
+  background-color: var(--primary-color);
   font-family: 'Poppins', sans-serif;
   margin: 0;
 }
@@ -44,6 +44,7 @@ header {
 main {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .movie {
